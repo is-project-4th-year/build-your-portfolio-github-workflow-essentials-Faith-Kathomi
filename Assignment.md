@@ -63,8 +63,8 @@
 
 I used milestones to group related issues for each major section of my portfolio. This helped me break down the work and stay on track.Below is an example of of the issues under the milestone for Developing the about page for Kelly's personal portfolio
 
-![Milestones and Issues](screenshots/CreatedMilestonesmilestones.png)
-![Creating Issues] (screenshots/CreatedIssues.png)
+![Milestones and Issues](screenshots/CreatedMilestones.png)
+![Creating Issues](screenshots/CreatedIssues.png)
 
 
 ### B. Project Board
