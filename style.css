@@ -43,7 +43,7 @@ a {
 }
 
 .highlight {
-  color: #007acc;
+  color: #e91e63; /* Pink highlight */
 }
 
 .nav-links {
@@ -59,7 +59,7 @@ a {
 }
 
 .nav-links li a:hover {
-  color: #007acc;
+  color: #e91e63; /* Pink hover */
 }
 
 .theme-toggle {
@@ -76,7 +76,7 @@ a {
   padding: 3rem 2rem;
   align-items: center;
   justify-content: center;
-  background: #f0f4f8;
+  background: #fce4ec; /* Light pink background */
 }
 
 .hero-image img {
@@ -84,7 +84,7 @@ a {
   height: auto;
   border-radius: 10px;
   margin-right: 2rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 12px rgba(233, 30, 99, 0.3); /* pink shadow */
 }
 
 .hero-text {
@@ -93,7 +93,7 @@ a {
 
 .hero-text h1 {
   font-size: 2.5rem;
-  color: #007acc;
+  color: #e91e63; /* Pink text */
 }
 
 .tagline {
@@ -109,7 +109,7 @@ a {
 /* Section Titles */
 .section-title {
   font-size: 2rem;
-  color: #007acc;
+  color: #e91e63; /* Pink titles */
   margin-bottom: 1rem;
   text-align: center;
 }
@@ -139,14 +139,14 @@ a {
   height: auto;
   border-radius: 10px;
   object-fit: cover;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(233, 30, 99, 0.2); /* pink tinted shadow */
 }
 
 /* Network Dashboard */
 .dashboard-section {
   padding: 3rem 2rem;
   text-align: center;
-  background-color: #eef6fa;
+  background-color: #fce4ec; /* Light pink */
 }
 
 .dashboard-image img {
@@ -154,7 +154,7 @@ a {
   max-width: 800px;
   margin-top: 1rem;
   border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(233, 30, 99, 0.15);
 }
 
 /* Admin Section */
@@ -183,7 +183,7 @@ a {
 }
 
 .admin-form button {
-  background-color: #007acc;
+  background-color: #e91e63; /* Pink button */
   color: white;
   padding: 0.6rem;
   border: none;
@@ -193,7 +193,7 @@ a {
 }
 
 .admin-form button:hover {
-  background-color: #005fa3;
+  background-color: #ad1457; /* Darker pink on hover */
 }
 
 /* Footer */
@@ -222,16 +222,16 @@ body.dark .navbar {
 }
 
 body.dark .hero-section {
-  background-color: #2c2c2c;
+  background-color: #3e1a2a; /* dark pink shade */
 }
 
 body.dark .about-section,
 body.dark .admin-section {
-  background-color: #2b2b2b;
+  background-color: #3b1a2a;
 }
 
 body.dark .dashboard-section {
-  background-color: #242424;
+  background-color: #311524;
 }
 
 body.dark .footer {
@@ -239,7 +239,7 @@ body.dark .footer {
 }
 
 body.dark .nav-links li a:hover {
-  color: #4ea3ff;
+  color: #ff80ab; /* lighter pink hover */
 }
 
 body.dark .admin-form input {
@@ -249,5 +249,6 @@ body.dark .admin-form input {
 }
 
 body.dark .admin-form button {
-  background-color: #4ea3ff;
+  background-color: #ff80ab;
 }
+
