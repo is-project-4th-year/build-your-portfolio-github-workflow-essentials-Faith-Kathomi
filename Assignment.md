@@ -2,52 +2,59 @@
 
 ## 1. Student Details
 
-- **Full Name**: Kelly Njeri Gituka
-- **Admission Number**: 152133
-- **GitHub Username**: @GitukaKelly
-- **Email**: kelly.gituka@strathmore.edu
+- **Full Name**: Faith Kathomi Kithinji
+- **Admission Number**: 151674
+- **GitHub Username**: Faith-Kathomi
+- **Email**: Faith.Kithinji@strathmore.edu
 
 ## 2. Deployed Portfolio Link
 
 - **GitHub Pages URL**:  
-  _(https://is-project-4th-year.github.io/build-your-portfolio-github-workflow-essentials-GitukaKelly/)_
+  _(https://is-project-4th-year.github.io/build-your-portfolio-github-workflow-essentials-Faith-Kathomi/)_
 
 ## 3. Learnings from the Git Crash Program
 
 **🧠 What I Thought I'd Learn vs What I Actually Learned**
 
-
 **1. Concept: Branching**
 
-Expectation: I thought branching was only for teams working on big projects and wouldn’t be useful in solo work.
+`Expectation 👀`: I assumed branching was mostly useful for large team-based projects and wouldn’t really help me in a personal project.
 
-Reality: Turns out branches are super handy for testing different ideas without messing up my main progress.
+`Reality 😅`: I realized that branching is essential even in solo work! It let me experiment with different sections (like About Me and Admin Panel) without disrupting the main version.
 
-Impact : I used branches to work on my "About " and "Projects" sections separately and merged them after testing.
+`Impact 💡`: I used branches to test changes to the hero section layout and color themes, and then merged the final version once I was satisfied.
+
+---
 
 **2. Concept: Issues and Milestones**
 
-Expectation  : I expected issues and milestones to be overkill for small projects.
+`Expectation 👀`: I thought issues and milestones were extra work and mostly for software developers working on complicated systems.
 
-Reality : They actually helped me plan and track progress in my portfolio project.
+`Reality 😅`: They actually helped me stay organized and manage tasks step-by-step. I could clearly track what needed to be done and check off completed items.
 
-Impact : I created an "Add Skills Section" milestone with linked issues, which helped keep things organized.
+`Impact 💡`: I created a milestone for launching the full portfolio layout and tracked individual tasks like setting up dark mode and improving responsiveness.
+
+---
 
 **3. Concept: Pull Requests**
 
-Expectation : I thought pull requests were only for team code reviews.
+`Expectation 👀`: I thought pull requests were mainly for developers working in teams to review code.
 
-Reality : Even solo devs can use PRs to track changes and experiment safely.
+`Reality 😅`: Even working alone, PRs helped me document changes and understand what I was modifying, which was useful for catching mistakes before they went live.
 
-Impact : I created a PR for my updated contact section and reviewed it before merging to avoid mistakes.
+`Impact 💡`: I submitted pull requests when merging feature branches into main, like the one for my updated “About Me” section, and reviewed changes before merging.
+
+---
 
 **4. Concept: Merge Conflicts**
 
-Expectation  : I thought I wouldn’t experience any conflicts working alone.
+`Expectation 👀`: I didn’t expect to have conflicts while working alone, so I didn’t think I’d need to understand this part.
 
-Reality : I created two branches and edited the same line to test how merge conflicts work.
+`Reality 😅`: I triggered a conflict while editing the same line from two branches and had to fix it manually.
 
-Impact : I learned how to resolve conflicts manually and commit the resolved version.
+`Impact 💡`: I learned how to identify the conflicting lines and resolve them using VS Code and the Git CLI. Now I feel confident handling merge conflicts on my own.
+
+---
 
 ## 4. Screenshots of Key GitHub Features
 
@@ -81,8 +88,7 @@ Here's a screenshot of a pull request I made to merge my past projects branch to
 
 ### E. Merge Conflict Resolution
 
-While merging two branches, I intentionally created a merge conflict in the assignment.md file. I resolved the conflict manually in VS Code and committed the changes.
-
+While merging the changes i had made in one branch i received some conflicts
 ![Merge Conflict ](screenshots/MergeConflict.png)
 
 Below is a photo of the resolved conflict
