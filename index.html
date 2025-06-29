@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Faith Kathomi Portfolio</title>
+  <!-- Devicon icons CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+ <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">Faith Kathomi's <span class="highlight">Portfolio</span></div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li> 
+        <li><a href="#admin">Admin</a></li>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark Mode">🌙</button>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <div class="hero-section" id="home">
+    <div class="hero-image">
+      <img src="assests/Cutie.jpg" alt="Faith Kathomi" />
+    </div>
+    <div class="hero-text">
+      <h1>Faith Kathomi</h1>
+      <p class="tagline">#Networking #CyberSecurity #ProblemSolver</p>
+      <p class="description">
+        I am Faith Kathomi  a highly motivated and detail-oriented individual passionate about Networking, Cybersecurity, and the broader field of information systems. 
+        I enjoy learning how digital systems interact securely and reliably, and I am driven by the goal of protecting data, systems, and people in the digital space.
+        Iam fascinated by how technology can be used both to build and to protect.
+      </p>
+    </div>
+  </div>
+
+
+  <!-- About Section -->
+  <section class="about-section" id="about">
+    <h2 class="section-title">Who Am I?</h2>
+    <p class="about-intro">
+      I am Faith Kathomi, currently pursuing a Bachelor of Informatics and Computer Science at Strathmore University, with a strong passion for network infrastructure and cybersecurity practices.
+      I believe that in our digitally connected world, securing data and building trustworthy systems is not just important—it's essential.
+      My curiosity fuels my continuous learning in areas like network protocols, ethical hacking, and system administration.
+      I aspire to work in environments that challenge me to grow, secure systems, and contribute to tech-driven solutions that impact lives positively.
+    </p>
+
+    <!-- Networking & Cybersecurity Gallery -->
+    <div class="about-gallery">
+      <img src="https://www.computerexpertscorp.com/wp-content/uploads/2023/07/pics-1-2.jpg" alt="Networking Setup" class="gallery-img">
+      <img src="https://www.cyberdefensemagazine.com/wp-content/uploads/2023/12/The-Human-Firewall-Strengthening-the-Weakest-Link-in-Cybersecurity.jpg" alt="Cybersecurity Visualization" class="gallery-img">
+      <img src="https://www.shutterstock.com/shutterstock/photos/2432577843/display_1500/stock-photo-ethical-hacking-concept-an-ethical-hacker-is-a-cyber-security-professional-with-in-depth-knowledge-2432577843.jpg" alt="Ethical Hacking" class="gallery-img">
+    </div>
+  </section>
+
+   <!-- Network Dashboard Section -->
+  <section class="dashboard-section" id="network-dashboard">
+    <h2 class="section-title">Live Network Dashboard View</h2>
+    <p>This visual showcases sample traffic monitoring and network data flow in real-time environments.</p>
+    <div class="dashboard-image">
+      <img src="https://www.motadata.com/wp-content/uploads/2022/08/Network-Dashboard-3.png" alt="Network Traffic Dashboard" />
+    </div>
+  </section>
+
+    <!-- Admin Section -->
+  <section class="admin-section" id="admin">
+    <h2 class="section-title">Admin Panel</h2>
+    <p>This is the admin area. You can manage users, view site analytics, and perform admin-specific tasks.</p>
+
+    <form class="admin-form">
+      <label for="adminEmail">Admin Email:</label>
+      <input type="email" id="adminEmail" name="adminEmail" required>
+
+      <label for="adminPassword">Password:</label>
+      <input type="password" id="adminPassword" name="adminPassword" required>
+
+      <button type="submit">Login</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 Faith Kathomi — Built with 💻, ❤️, and Git</p>
+    <div class="footer-icons">
+      <a href="https://github.com/Faith-Kathomi" target="_blank" aria-label="GitHub"><i class="devicon-github-original colored"></i></a>
+          </div>
+  </footer>
+
+  <!-- Dark Mode Toggle Script -->
+  <script>
+    const toggleButton = document.getElementById('theme-toggle');
+    const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+
+    const currentTheme = localStorage.getItem('theme');
+    if (currentTheme === 'dark' || (prefersDarkScheme.matches && !currentTheme)) {
+      document.body.classList.add('dark');
+      toggleButton.textContent = '☀️';
+    }
+
+    toggleButton.addEventListener('click', () => {
+      document.body.classList.toggle('dark');
+      const isDark = document.body.classList.contains('dark');
+      toggleButton.textContent = isDark ? '☀️' : '🌙';
+      localStorage.setItem('theme', isDark ? 'dark' : 'light');
+    });
+  </script>
+</body>
+</html>
