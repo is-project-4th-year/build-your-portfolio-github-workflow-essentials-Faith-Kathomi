@@ -70,22 +70,18 @@ a {
   color: #ff1493; /* Deep pink */
 }
 
-/* Hero Section */
+/* Hero Section - Updated to stack image on top and text below */
 .hero-section {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;        /* stack vertically */
+  align-items: center;           /* center horizontally */
   padding: 3rem 2rem;
-  align-items: center;
-  justify-content: center;
-  background: #ffe6f0; /* Light pink background */
+  background: #ffe6f0;           /* Light pink background */
+  text-align: center;            /* center text */
 }
 
-/* Center and style hero image */
 .hero-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;           /* spacing between image and text */
 }
 
 .hero-image img {
@@ -93,7 +89,7 @@ a {
   height: auto;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(255, 105, 180, 0.5); /* Pink shadow */
-  margin: 0; /* Remove margin right */
+  margin: 0;
 }
 
 .hero-text {
