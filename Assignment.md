@@ -61,7 +61,7 @@
 
 ### A. Milestones and Issues
 
-I used milestones to group related issues for each major section of my portfolio. This helped me break down the work and stay on track.Below is an example of of the issues under the milestone for Developing the about page for Kelly's personal portfolio
+I used milestones to group related issues for each major section of my portfolio. This helped me break down the work and stay on track.Below is an example of of the issues and the milestones i created for Developing the  personal portfolio
 
 ![Milestones and Issues](screenshots/CreatedMilestones.png)
 ![Creating Issues](screenshots/CreatedIssues.png)
@@ -76,13 +76,13 @@ I created a GitHub Project Board to visually track progress during development. 
 
 ### C. Branching
 
-To work on different parts of my portfolio independently, I created multiple branches. This ensured I could test features without affecting the main user experience.
+To work on different parts of my portfolio independently, I created multiple branches. This ensured I could test features without affecting the main user experience.This are some of the branches created:
 
 ![Branching](screenshots/CreatingBranches.png)
 
 ### D. Pull Requests
 
-Here's a screenshot of a pull request I made to merge my past projects branch to the services section of my portfolio.
+Here's a screenshot of how to create or generate a pull request. It among one of the manay i created for the personal Portfolio
 
 ![Pull request](screenshots/CreatingPullRequest.png)
 
